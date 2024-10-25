@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" );
 
 .body{
@@ -6,25 +7,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
   
 .navbar {
     display: flex;
-    background-color: #FCF6E8;
-    
+    background-color: #D6B2FD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
   }
     
 .contenedor{  
-    height: 62vh; /*Seperacion entre titulo y navbar*/
-    margin: 15%;
+    height: 93vh; /*Seperacion entre titulo y navbar*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FCF6E8;
+    background: #D6B2FD;
 }
 
-
+.container2{
+    background: #373737;
+}
 
 ::-webkit-scrollbar { /*Ocultar barra de desplazamiento*/ 
   display: none;
