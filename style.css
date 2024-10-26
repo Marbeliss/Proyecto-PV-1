@@ -22,6 +22,7 @@
   }
     
 .contenedor{  
+
     height: 93vh; /*Seperacion entre titulo y navbar*/
     display: flex;
     justify-content: center;
@@ -32,6 +33,7 @@
 .container2{
     background: #373737;
 }
+
 
 ::-webkit-scrollbar { /*Ocultar barra de desplazamiento*/ 
   display: none;
@@ -95,3 +97,19 @@
     transform: scale(0.95);
   }
   
+
+
+
+  /*payment-section*/
+  .payment-section {
+    background-color: #373737;
+    padding: 30px 20px; /*ancho de la barra*/
+    text-align: center;
+}
+
+.payment-methods img {
+    max-width: 150px; /* Ajusta el tamaño según sea necesario */
+    margin: 0 20px;
+}
+
+
